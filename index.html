@@ -2,10 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>DevFolio - Developer Portfolio Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+
+        <meta property='og:title' content="Danie'ls Portfolio"/>
+        <meta property='og:image' content='img/preview.jpg'/>
+        <meta property='og:description' content='Dedicated to the combination of music and technology, Daniel seeks innovated solutions to problems in both fields.'/>
+        <meta property='og:url' content='https://danielfaronbi.com/' />
+
+        <title>Daniel Faronbi</title>
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -19,6 +23,12 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- tab incon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
@@ -37,14 +47,9 @@
                     <div class="navbar-nav ml-auto">
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                        <a href="#price" class="nav-item nav-link">Price</a>
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <a href="#team" class="nav-item nav-link">Team</a>
-                        <a href="#blog" class="nav-item nav-link">Blog</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="#projects" class="nav-item nav-link">Projects</a>
+                        <a href="#service" class="nav-item nav-link">Music</a>
+                        <a href="#experience" class="nav-item nav-link">CV</a>
                     </div>
                 </div>
             </div>
@@ -59,20 +64,21 @@
                     <div class="col-sm-12 col-md-6">
                         <div class="hero-content">
                             <div class="hero-text">
-                                <p>I'm</p>
+                                <p>Hi! I'm</p>
                                 <h1>Daniel Faronbi</h1>
                                 <h2></h2>
                                 <div class="typed-text">Music Technology Researcher, Jazz Pianist, Music Producer</div>
                             </div>
                             <div class="hero-btn">
-                                <a class="btn" href="">Hire Me</a>
-                                <a class="btn" href="">Contact Me</a>
+                                <a class="btn" href="mailto:danielfaronbi@gmail.com">Contact Me</a>
+                                <a class="btn" href="https://www.linkedin.com/in/daniel-faronbi-7aa61b184/">LinkedIn</a>
+                                <a class="btn" href="https://github.com/dafaronbi">Github</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
                         <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
+                            <img src="img/daniel.png" alt="Hero Image">
                         </div>
                     </div>
                 </div>
@@ -87,57 +93,160 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
+                            <img src="img/MARL.png" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content">
-                            <div class="section-header text-left">
+                            <div class="section-header text-left p-5">
                                 <h2>About Me</h2>
                             </div>
                             <div class="about-text">
                                 <p>
-                                    Dedicated to the combination of music and technology, Daniel seeks innovated solutions to problems in both fields. 
-                                    He is a Music Technology PhD student in the Music and Audio Research Laboratory (MARL) at New York University. 
-                                    His advisors are Dr. Juan P. Bello and Dr. Leila Adu-Gilmore. His research interests lie in exploring machine learning 
-                                    techniques for generating representations for parameter generation in virtual instruments. His education experience has provided with knowledge of 
-                                    STEM and the arts, with degrees in both computer engineering and music technology. Daniel is also an active performer, primarily playing jazz piano, 
-                                    but also participating in performances on other instruments.
+                                    I'm a Music Technolgy Researcher, Jazz Pianist, and Music Producer. My research involves using 
+                                    signal processing and machine learning for the generation and analysis of music and other audio signals. I do my work as 
+                                    a PhD student in the <a href="https://steinhardt.nyu.edu/marl">Music and Audio Research Lab (MARL)</a> under the supervision of 
+                                    <a href="https://wp.nyu.edu/jpbello/">Dr. Juan P. Bello</a> and <a href="https://www.leilaadu.com/about/">Dr. Lelia Adu-Gilmore</a>.
+                                    For the past few years, I have been a dedicated student in both the arts and STEM, with degrees in Music Technology and Computer Engineering.
+                                    My work aims to bridge as a bridge between the cerebral and the spiritual.
                                 </p>
                             </div>
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Web Design</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Web Development</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Design</p><p>90%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Development</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <a class="btn" href="">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
+
+         <!-- Projects Start -->
+         <div class="blog" id="projects">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <h2>Projects</h2>
+                </div>
+                <h3>On Going Projects</h3>
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/s3d.jpeg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Sound Localization</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Lead</p>
+                                    <p><i class="far fa-list-alt"></i>Machine Listening</p>
+                                    <p><i class="far fa-calendar-alt"></i>Semptember 2022</p>
+                                </div>
+                                <p>
+                                    Sound is rich with information about the surrounding environment. 
+                                    If you stand on a city sidewalk with your eyes closed and listen, 
+                                    you will hear the sounds of events happening around you: birds chirping, 
+                                    squirrels scurrying, people talking, doors opening, an ambulance speeding, 
+                                    a truck idling. In addition, you will also likely be able to perceive the 
+                                    location of each sound source, where it’s going, and how fast it’s moving. 
+                                    This project will build innovative technologies to allow computers to extract this rich information out of sound.
+                                </p>
+                                <a class="btn" href="https://steinhardt.nyu.edu/marl/research/projects/s3d-spatial-sound-scene-description">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <img src="img/audio.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Multi VST Automatic Synthesizer Programming</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Lead</p>
+                                    <p><i class="far fa-list-alt"></i>Deep Learning/Signal Processing</p>
+                                    <p><i class="far fa-calendar-alt"></i>September 2021</p>
+                                </div>
+                                <p>
+                                    Automatic synthesizer programming is the task of transform-
+                                    ing an audio signal that was generated from a virtual instru-
+                                    ment, into the parameters of a sound synthesizer that would
+                                    generate this signal. In the past, this could only be done for
+                                    one virtual instrument. The goal of this project is to explore 
+                                    techniques for automatic synthesizer programming for multi virtual instruments.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/ghana.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Afrinum</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Assistant</p>
+                                    <p><i class="far fa-list-alt"></i>Computational Musicology</p>
+                                    <p><i class="far fa-calendar-alt"></i>May 2022</p>
+                                </div>
+                                <p>
+                                    AFRINUM aims at renewing the discourse about innovation in Western African societies through the lens of the popular music industry. 
+                                    We consider digital technology as a globalized tool vs a cultural artifact to reflect upon the many specificities that this tool takes 
+                                    and the values to which it refers. This digital music culture will be investigated within a large range of social, economic and political 
+                                    contexts to which this culture participates meanwhile contributes to transforming, producing or reifying.
+                                </p>
+                                <a class="btn" href="https://wp.nyu.edu/criticalsonicpracticelab/">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3>Past Projects</h3>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <img src="img/blog-1.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Web Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>5</p>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>10</p>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
         
         
         <!-- Service Start -->
